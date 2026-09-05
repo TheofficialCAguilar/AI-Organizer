@@ -1,0 +1,14 @@
+cd "/Users/sandal/AI Organizer"
+cat > .gitignore << 'EOF'
+__pycache__/
+*.pyc
+*.pyo
+.env
+.organizer_undo_log.json
+backend/.organizer_undo_log.json
+Organizer/Organizer.xcodeproj/xcuserdata/
+Organizer/DerivedData/
+*.xcuserstate
+.DS_Store
+*.db
+EOF
